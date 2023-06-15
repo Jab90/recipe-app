@@ -1,0 +1,30 @@
+.searchItems { 
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+
+  &__input {
+    padding: 10px;
+    height: 40px;
+    width: 80%;
+    border: 1px solid lightgray;
+    border-radius: 40px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+
+  }
+
+  &__button{
+    width: 20%;
+    height: 40px;
+    border-radius: 20px;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    background-color: green;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+}

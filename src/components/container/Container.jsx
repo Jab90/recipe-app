@@ -1,8 +1,8 @@
 import React from 'react';
 import './Container.scss'
 
-export default function Container() { 
+export default function Container({ children }) { 
   return (
-    <div className='container'>Container</div>
+    <div className='container'>{ children }</div>
   )
 }
