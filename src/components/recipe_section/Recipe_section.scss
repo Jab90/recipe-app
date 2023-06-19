@@ -1,7 +1,11 @@
 .recipe{
 
   &__img{
-    width: 190px;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+   border-radius: 10px;
+    
 
   }
   &__header{
