@@ -6,7 +6,7 @@ import recipe3 from '../../assets/images/recipe-img3.jpg'
 import recipe4 from '../../assets/images/recipe-img4.jpg'
 
 
-export default function dona() {
+export default function Recipe_Section() {
   return (
     <div className='recipe'>
       <img className='recipe__img' src={recipe1} alt='image1'/>
